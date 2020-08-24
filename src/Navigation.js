@@ -6,16 +6,16 @@ function Navigation() {
       <a></a>
       <ul>
         <li>
-          <a></a>
+          <a>O mnie</a>
         </li>
         <li>
-          <a></a>
+          <a>Technologie</a>
         </li>
         <li>
-          <a></a>
+          <a>Projekty</a>
         </li>
         <li>
-          <a></a>
+          <a>Kontakt</a>
         </li>
       </ul>
     </nav>
