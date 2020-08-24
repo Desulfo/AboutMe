@@ -5,12 +5,14 @@ import 'tachyons';
 //COMPONENTS
 import Navigation from './Navigation';
 import AboutMe from './AboutMe';
+import MyStack from './MyStack';
 
 function App() {
   return (
     <>
       <Navigation />
       <AboutMe />
+      <MyStack />
     </>
   );
 }
