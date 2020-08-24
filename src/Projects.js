@@ -8,7 +8,7 @@ function Projects() {
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img
             src="http://mrmrs.github.io/photos/cpu.jpg"
-            class="db dim"
+            class="db dim grow"
             alt="Photo of a dimly lit room with a computer interface terminal."
           />
           <a href="#" className="dib f6 f5-ns b db pa2 link dim black tc">

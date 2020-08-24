@@ -8,6 +8,7 @@ import AboutMe from './AboutMe';
 import MyStack from './MyStack';
 import Projects from './Projects';
 import Contact from './Contac';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <MyStack />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }

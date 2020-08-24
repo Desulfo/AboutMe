@@ -2,8 +2,8 @@ import React from 'react';
 
 function Navigation() {
   return (
-    <nav className="mw9">
-      <ul className="list ph3 ph5-ns">
+    <nav className="center tc">
+      <ul className="mw8 list ph3 ph5-ns">
         <li className="dib mr2">
           <a href="#AboutMe" className="f6 f5-ns b db pa2 link dim black">
             About me
