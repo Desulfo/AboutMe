@@ -17,7 +17,8 @@ Simple site in React telling about me as Junior Front-end Dev
 
 In console:
 
-```git clone https://github.com/Desulfo/AboutMe.git
+```
+git clone https://github.com/Desulfo/AboutMe.git
 cd AboutMe
 npm init
 npm start
