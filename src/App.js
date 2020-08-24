@@ -1,10 +1,18 @@
 import React from 'react';
+//STYLES
 import './App.css';
-import Navigation from './Navigation';
 import 'tachyons';
+//COMPONENTS
+import Navigation from './Navigation';
+import AboutMe from './AboutMe';
 
 function App() {
-  return <Navigation />;
+  return (
+    <>
+      <Navigation />
+      <AboutMe />
+    </>
+  );
 }
 
 export default App;

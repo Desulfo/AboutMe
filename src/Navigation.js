@@ -3,19 +3,26 @@ import React from 'react';
 function Navigation() {
   return (
     <nav>
-      <a></a>
-      <ul>
-        <li>
-          <a>O mnie</a>
+      <ul className="list ph3 ph5-ns">
+        <li className="dib mr2">
+          <a href="#AboutMe" className="f6 f5-ns b db pa2 link dim black">
+            O mnie
+          </a>
         </li>
-        <li>
-          <a>Technologie</a>
+        <li className="dib mr2">
+          <a href="#" className="f6 f5-ns b db pa2 link dim black">
+            Technologie
+          </a>
         </li>
-        <li>
-          <a>Projekty</a>
+        <li className="dib mr2">
+          <a href="#" className="f6 f5-ns b db pa2 link dim black">
+            Projekty
+          </a>
         </li>
-        <li>
-          <a>Kontakt</a>
+        <li className="dib mr2">
+          <a href="#" className="f6 f5-ns b db pa2 link dim black">
+            Kontakt
+          </a>
         </li>
       </ul>
     </nav>
