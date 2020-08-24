@@ -12,7 +12,7 @@ function AboutMe() {
       </p>
       <a href="#" className="dib f6 f5-ns b db pa2 link dim black tc">
         My stack <br />
-        <i class="fas fa-arrow-circle-down"></i>
+        <i class="fas fa-arrow-circle-down f3 mt2"></i>
       </a>
     </section>
   );

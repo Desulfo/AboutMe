@@ -2,9 +2,9 @@ import React from 'react';
 
 function MyStack() {
   return (
-    <section id="MyStack" className="center tc mw9 pv4">
+    <section id="MyStack" className="center tc pv4">
       <h2 className="fw6 f3 f2-ns lh-title mv0">My stack</h2>
-      <ul className="list ph3 ph5-ns">
+      <ul className="dib list ph0 mw8">
         <li className="f2 fl w-50 pa2">
           <i class="fab fa-html5 f1 v-mid pt3 fl w-20"></i>
           <h3 className="f4 fl w-80 mb1 tl">HTML</h3>
