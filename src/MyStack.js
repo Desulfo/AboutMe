@@ -2,7 +2,7 @@ import React from 'react';
 
 function MyStack() {
   return (
-    <section id="MyStack" className="center tc pv4">
+    <section id="Stack" className="center tc pv4">
       <h2 className="fw6 f3 f2-ns lh-title mv0">My stack</h2>
       <ul className="dib list ph0 mw8">
         <li className="f2 fl w-50 pa2">

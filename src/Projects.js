@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <section class="center pv4 bg-light-blue">
+    <section id="Projects" class="center pv4 bg-light-blue">
       <h2 class="tc fw6 f3 f2-ns lh-title mt0">My projects</h2>
       <article class=" center mw8 flex flex-column flex-row-ns">
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">

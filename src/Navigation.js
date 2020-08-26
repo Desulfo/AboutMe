@@ -1,29 +1,25 @@
 import React from 'react';
+import ListItem from './MenuListItem';
+import MyStack from './MyStack';
+
+const menuSections = [
+  { name: 'About me', tag: 'AboutMe' },
+  { name: 'My Stack', tag: 'Stack' },
+  { name: 'My Projects', tag: 'Projects' },
+  { name: 'Contact', tag: 'Contact' },
+];
 
 function Navigation() {
   return (
     <nav className="center tc">
       <ul className="mw8 list ph3 ph5-ns">
-        <li className="dib mr2">
-          <a href="#AboutMe" className="f6 f5-ns b db pa2 link dim black">
-            About me
-          </a>
-        </li>
-        <li className="dib mr2">
-          <a href="#MyStack" className="f6 f5-ns b db pa2 link dim black">
-            My stack
-          </a>
-        </li>
-        <li className="dib mr2">
-          <a href="#" className="f6 f5-ns b db pa2 link dim black">
-            My projects
-          </a>
-        </li>
-        <li className="dib mr2">
-          <a href="#" className="f6 f5-ns b db pa2 link dim black">
-            Contact
-          </a>
-        </li>
+        {menuSections.map(({ name, tag }) => (
+          <li className="dib mr2">
+            <a href={`#${tag}`} className="f6 f5-ns b db pa2 link dim black">
+              {name}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );
