@@ -1,6 +1,4 @@
 import React from 'react';
-import ListItem from './MenuListItem';
-import MyStack from './MyStack';
 
 const menuSections = [
   { name: 'About me', tag: 'AboutMe' },
