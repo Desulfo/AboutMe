@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectItem from '../molecules/ProjectItem';
 
 function Projects() {
   return (
@@ -19,7 +20,7 @@ function Projects() {
           </a>
         </div>
         <div class="w-100 w-60-ns pl3-ns">
-          <h3 class="f4 mb1 mt0 tl">Robofriends</h3>
+          <h3 class="f4 mb1 mt0 tl">About me</h3>
           <p class="f6 mt0">Created in II 2020</p>
           <p class="f5 lh-copy mt1 tl">
             Strona stworzona za pomocą biblioteki React pozwala na dynamiczne
@@ -30,12 +31,16 @@ function Projects() {
             <i class="fab fa-github f3 mr2"></i>
             <p className="dib">Code</p>
           </a>
-          <a href="#" className="dib f6 f5-ns b db pa2 link dim black tc">
+          <a
+            href="https://github.com/Desulfo/AboutMe/tree/develop#"
+            className="dib f6 f5-ns b db pa2 link dim black tc"
+          >
             <i class="far fa-window-maximize f3 mr2"></i>
             <p className="dib">Live version</p>
           </a>
         </div>
       </article>
+      <ProjectItem />
     </section>
   );
 }

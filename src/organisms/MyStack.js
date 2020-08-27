@@ -1,5 +1,5 @@
 import React from 'react';
-import stackData from './data/Stack.js';
+import stackData from '../data/Stack.js';
 
 function MyStack() {
   return (
