@@ -8,5 +8,7 @@ export default [
         ich obrazki generowane za pomocą następnego.`,
     codeLink: 'https://github.com/Desulfo/RoboFriends',
     liveVersionLink: 'https://desulfo.github.io/RoboFriends/',
+    photoLink: 'https://www.patricksmcmahon.com/img/portfolio/robofriends.jpg',
+    photoDescription: `zdjęcie strony`,
   },
 ];
