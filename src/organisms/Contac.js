@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../atoms/Header';
 
 function Contact() {
   return (
     <section id="Contact" className="center mw8 tc pv4 flex flex-wrap">
-      <h2 className="fw6 f3 f2-ns lh-title mt0 mb0 w-100">Reach me</h2>
+      <Header text="Reach me" />
       <a
         href="#"
         className="dib f6 f5-ns b db pa2 link dim black tc w-100 w-50-ns"

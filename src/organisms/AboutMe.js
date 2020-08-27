@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../atoms/Header';
 
 function AboutMe() {
   return (
     <section id="AboutMe" className="center tc pv4 bg-light-blue">
-      <h2 className="fw6 f3 f2-ns lh-title mt0 mb0">Paweł Janiszewski</h2>
+      <Header text="Paweł Janiszewski" />
       <h3 className="fw2 f4 lh-copy mt0 mb4">Junior Front-end developer</h3>
       <p className="mw8 f5 center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,

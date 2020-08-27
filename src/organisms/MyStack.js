@@ -1,10 +1,11 @@
 import React from 'react';
 import stackData from '../data/Stack.js';
+import Header from '../atoms/Header';
 
 function MyStack() {
   return (
     <section id="Stack" className="center tc pv4">
-      <h2 className="fw6 f3 f2-ns lh-title mv0">My stack</h2>
+      <Header text="My stack" />
       <ul className="dib list ph0 mw8">
         {stackData.map(({ technology, description, favIconClass: icon }) => (
           <li className="f2 fl w-50 pa2">
