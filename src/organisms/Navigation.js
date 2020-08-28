@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '../atoms/Link';
 import styled from 'styled-components';
 
 //DATA
@@ -13,7 +14,7 @@ const menuSections = [
 const Navigation = styled.nav`
   padding: 1rem;
   text-align: center;
-  @media (min-width: 420px) {
+  @media (min-width: 450px) {
     position: sticky;
     top: 0;
     background-color: white;
@@ -28,21 +29,13 @@ const List = styled.ul`
   justify-content: space-between;
   align-items: center;
   max-width: 550px;
-  @media (min-width: 420px) {
+  @media (min-width: 450px) {
     flex-direction: row;
   }
 `;
 const ListItem = styled.li`
   font-weight: 1.5rem;
   margin: 0.7rem;
-`;
-const Link = styled.a`
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  &:hover {
-    opacity: 0.5;
-  }
 `;
 
 function StyledNavigation() {
@@ -51,7 +44,7 @@ function StyledNavigation() {
       <List>
         {menuSections.map(({ name, tag }) => (
           <ListItem>
-            <Link href={`#${tag}`}>{name}</Link>
+            <Link url={`#${tag}`} text={name} />
           </ListItem>
         ))}
       </List>
