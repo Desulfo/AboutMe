@@ -1,7 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledHeader = styled.h2`
+  margin: 0;
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+`;
 
 function Header(props) {
-  return <h2 className="fw6 f3 f2-ns lh-title mt0 mb0 tc">{props.text}</h2>;
+  return <StyledHeader>{props.text}</StyledHeader>;
 }
 
 export default Header;

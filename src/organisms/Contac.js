@@ -3,7 +3,7 @@ import Header from '../atoms/Header';
 
 function Contact() {
   return (
-    <section id="Contact" className="center mw8 tc pv4 flex flex-wrap">
+    <section id="Contact" className="center mw8 tc pv4 flex-wrap">
       <Header text="Reach me" />
       <a
         href="#"

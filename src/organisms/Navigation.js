@@ -1,5 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
 
+//DATA
 const menuSections = [
   { name: 'About me', tag: 'AboutMe' },
   { name: 'My Stack', tag: 'Stack' },
@@ -7,20 +9,54 @@ const menuSections = [
   { name: 'Contact', tag: 'Contact' },
 ];
 
-function Navigation() {
+//STYLED COMPONENTS
+const Navigation = styled.nav`
+  padding: 1rem;
+  text-align: center;
+  @media (min-width: 420px) {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+  }
+`;
+const List = styled.ul`
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 550px;
+  @media (min-width: 420px) {
+    flex-direction: row;
+  }
+`;
+const ListItem = styled.li`
+  font-weight: 1.5rem;
+  margin: 0.7rem;
+`;
+const Link = styled.a`
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    opacity: 0.5;
+  }
+`;
+
+function StyledNavigation() {
   return (
-    <nav className="center tc">
-      <ul className="mw8 list ph3 ph5-ns">
+    <Navigation>
+      <List>
         {menuSections.map(({ name, tag }) => (
-          <li className="dib mr2">
-            <a href={`#${tag}`} className="f6 f5-ns b db pa2 link dim black">
-              {name}
-            </a>
-          </li>
+          <ListItem>
+            <Link href={`#${tag}`}>{name}</Link>
+          </ListItem>
         ))}
-      </ul>
-    </nav>
+      </List>
+    </Navigation>
   );
 }
 
-export default Navigation;
+export default StyledNavigation;
