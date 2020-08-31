@@ -11,7 +11,11 @@ const StyledLink = styled.a`
 `;
 
 function Link(props) {
-  return <StyledLink href={props.url}>{props.children}</StyledLink>;
+  return (
+    <StyledLink className={props.className} href={props.url}>
+      {props.children}
+    </StyledLink>
+  );
 }
 
 export default Link;

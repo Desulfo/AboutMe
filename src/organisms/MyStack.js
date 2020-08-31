@@ -35,6 +35,7 @@ const ListItem = styled.li`
   }
 `;
 const Icon = styled.i`
+  width: 70px;
   float: left;
   font-size: 4rem;
   margin-right: 1rem;
