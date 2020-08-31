@@ -16,18 +16,28 @@ const List = styled.ul`
   margin: 0 auto;
   list-style: none;
   flex-direction: column;
+  justify-content: center;
   justify-content: space-between;
   align-items: center;
-  max-width: 550px;
-  @media (min-width: 450px) {
+  max-width: 850px;
+  @media (min-width: 600px) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 `;
 const ListItem = styled.li`
+  display: block;
   width: 80%;
-  height: 90px;
-  margin: 0.7rem auto;
+  margin: 1.2rem auto;
   text-align: left;
+  @media (min-width: 600px) {
+    width: 40%;
+    margin-right: 0.5rem;
+  }
+  @media (min-width: 1000px) {
+    width: 30%;
+    margin-right: 0.5rem;
+  }
 `;
 const Icon = styled.i`
   float: left;
