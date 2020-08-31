@@ -28,7 +28,7 @@ function AboutMe() {
         inventore iusto magni eaque magnam deserunt nisi harum quas eos itaque!"
         styles="max-width: 800px;"
       />
-      <Link url="#Stack" text="My stack"></Link>
+      <Link url="#Stack" text="My stack" />
       <br />
       <i class="fas fa-arrow-circle-down f3 mt2"></i>
     </Section>

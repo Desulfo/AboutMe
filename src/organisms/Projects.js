@@ -1,13 +1,22 @@
 import React from 'react';
+
 import Header from '../atoms/Header';
 import ProjectItem from '../molecules/ProjectItem';
 
+import styled from 'styled-components';
+
+const Section = styled.section`
+  margin: 0 auto;
+  padding: 1.5rem 3rem;
+  max-width: 800px;
+`;
+
 function Projects() {
   return (
-    <section id="Projects" class="center pv4 bg-light-blue">
+    <Section id="Projects">
       <Header text="My projects" />
       <ProjectItem />
-    </section>
+    </Section>
   );
 }
 

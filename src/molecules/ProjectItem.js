@@ -1,46 +1,38 @@
 import React from 'react';
 import portfolioData from '../data/portfolio.js';
+import Paragraph from '../atoms/Paragraph';
+import Header from '../atoms/Header';
+import Link from '../atoms/Link';
+
+import styled from 'styled-components';
 
 function ProjectItem() {
   return portfolioData.map(
     ({ title, data, description, codeLink, liveVersionLink, photoLink }) => (
-      <article class=" center mw8 flex flex-column flex-row-ns">
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+      <article>
+        <div>
           <img
             src={photoLink}
-            class="db dim grow"
             alt="Photo of a dimly lit room with a computer interface terminal."
           />
-          <a
-            href={codeLink}
-            className="dib f6 f5-ns b db pa2 link dim black tc"
-          >
-            <i class="fab fa-github f3"></i>
+          <a href={codeLink}>
+            <i className="fab fa-github"></i>
           </a>
-          <a
-            href={liveVersionLink}
-            className="dib f6 f5-ns b db pa2 link dim black tc"
-          >
-            <i class="far fa-window-maximize f3"></i>
+          <a href={liveVersionLink}>
+            <i className="far fa-window-maximize"></i>
           </a>
         </div>
-        <div class="w-100 w-60-ns pl3-ns">
-          <h3 class="f4 mb1 mt0 tl">{title}</h3>
-          <p class="f6 mt0">{`Created in ${data}`}</p>
-          <p class="f5 lh-copy mt1 tl">{description}</p>
-          <a
-            href={codeLink}
-            className="dib f6 f5-ns b db pa2 link dim black tc mr4"
-          >
-            <i class="fab fa-github f3 mr2"></i>
-            <p className="dib">Code</p>
+        <div>
+          <h3>{title}</h3>
+          <p>{`Created in ${data}`}</p>
+          <p>{description}</p>
+          <a href={codeLink}>
+            <i class="fab fa-github"></i>
+            <p>Code</p>
           </a>
-          <a
-            href={liveVersionLink}
-            className="dib f6 f5-ns b db pa2 link dim black tc"
-          >
-            <i class="far fa-window-maximize f3 mr2"></i>
-            <p className="dib">Live version</p>
+          <a href={liveVersionLink}>
+            <i className="far fa-window-maximize"></i>
+            <p>Live version</p>
           </a>
         </div>
       </article>
