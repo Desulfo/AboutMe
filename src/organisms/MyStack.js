@@ -1,10 +1,7 @@
 import React from 'react';
-
 import stackData from '../data/Stack.js';
-
 import Header from '../atoms/Header';
 import Paragraph from '../atoms/Paragraph';
-
 import styled from 'styled-components';
 
 const Section = styled.section`

@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Paragraph from '../atoms/Paragraph';
 import Header from '../atoms/Header';
-
 import styled from 'styled-components';
 
 const Section = styled.section`
@@ -28,7 +26,7 @@ const ListItem = styled.li`
   }
 `;
 
-function AboutMe() {
+function Experience() {
   return (
     <Section id="Experience">
       <Header text="IT experience" />
@@ -46,4 +44,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Experience;

@@ -1,9 +1,7 @@
 import React from 'react';
-
 import Paragraph from '../atoms/Paragraph';
 import Header from '../atoms/Header';
 import Link from '../atoms/Link';
-
 import styled from 'styled-components';
 
 const Section = styled.section`
@@ -28,9 +26,11 @@ function AboutMe() {
         inventore iusto magni eaque magnam deserunt nisi harum quas eos itaque!"
         styles="max-width: 800px;"
       />
-      <Link url="#Stack" text="My stack" />
-      <br />
-      <i class="fas fa-arrow-circle-down f3 mt2"></i>
+      <Link url="#Stack">
+        My stack
+        <br />
+        <i class="fas fa-arrow-circle-down f3 mt2"></i>
+      </Link>
     </Section>
   );
 }

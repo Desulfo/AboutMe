@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '../atoms/Link';
+import Paragraph from '../atoms/Paragraph';
 import styled from 'styled-components';
 
 //DATA
@@ -43,7 +44,7 @@ function StyledNavigation() {
       <List>
         {menuSections.map(({ name, tag }) => (
           <ListItem>
-            <Link url={`#${tag}`} text={name} />
+            <Link url={`#${tag}`}>{name}</Link>
           </ListItem>
         ))}
       </List>
