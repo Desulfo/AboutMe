@@ -5,6 +5,7 @@ import 'tachyons';
 import Navigation from './organisms/Navigation';
 import AboutMe from './organisms/AboutMe';
 import MyStack from './organisms/MyStack';
+import Experience from './organisms/Experience';
 import Projects from './organisms/Projects';
 import Contact from './organisms/Contac';
 import Footer from './organisms/Footer';
@@ -15,7 +16,7 @@ function App() {
       <Navigation />
       <AboutMe />
       <MyStack />
-      <h2 className="center tc"> doświadczenie</h2>
+      <Experience />
       <Projects />
       <Contact />
       <Footer />

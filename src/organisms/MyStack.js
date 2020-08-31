@@ -26,7 +26,6 @@ const List = styled.ul`
   }
 `;
 const ListItem = styled.li`
-  display: block;
   width: 80%;
   margin: 1.2rem auto;
   text-align: left;
@@ -36,7 +35,6 @@ const ListItem = styled.li`
   }
   @media (min-width: 1000px) {
     width: 30%;
-    margin-right: 0.5rem;
   }
 `;
 const Icon = styled.i`
