@@ -10,7 +10,7 @@ Simple site in React telling about me as Junior Front-end Dev
 ## Technologies
 
 - HTML
-- CSS + [tachynos](http://tachyons.io/)
+- CSS + [tachynos](http://tachyons.io/) + [styled-component](https://styled-components.com/)
 - React
 
 ## Setup
