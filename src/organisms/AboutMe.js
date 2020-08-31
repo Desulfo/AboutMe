@@ -20,14 +20,15 @@ const Header3 = styled.h3`
 function AboutMe() {
   return (
     <Section id="AboutMe">
-      <Header text="Paweł Janiszewski" />
+      <Header text="Paweł Janiszewski" BottomMargin="0" />
       <Header3>Junior Front-end developer</Header3>
       <Paragraph
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
         voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut sed,
         inventore iusto magni eaque magnam deserunt nisi harum quas eos itaque!"
+        styles="max-width: 800px;"
       />
-      <Link url="#Stack" text="My stack" />
+      <Link url="#Stack" text="My stack"></Link>
       <br />
       <i class="fas fa-arrow-circle-down f3 mt2"></i>
     </Section>

@@ -34,7 +34,6 @@ const List = styled.ul`
   }
 `;
 const ListItem = styled.li`
-  font-weight: 1.5rem;
   margin: 0.7rem;
 `;
 
