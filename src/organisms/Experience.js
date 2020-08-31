@@ -11,7 +11,7 @@ const Section = styled.section`
 const List = styled.ul`
   display: flex;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
   flex-direction: column;
   justify-content: center;
   justify-content: space-between;

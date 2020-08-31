@@ -9,7 +9,7 @@ const Section = styled.section`
   padding: 1.5rem 1rem;
   text-align: center;
 `;
-const Header3 = styled.h3`
+const Header4 = styled.h4`
   font-weight: normal;
   font-size: 1.3rem;
   margin-bottom: 1rem;
@@ -19,7 +19,7 @@ function AboutMe() {
   return (
     <Section id="AboutMe">
       <Header text="Paweł Janiszewski" BottomMargin="0" />
-      <Header3>Junior Front-end developer</Header3>
+      <Header4>Junior Front-end developer</Header4>
       <Paragraph
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
         voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut sed,

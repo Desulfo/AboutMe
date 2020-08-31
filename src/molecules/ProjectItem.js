@@ -1,10 +1,13 @@
 import React from 'react';
 import portfolioData from '../data/portfolio.js';
 import Paragraph from '../atoms/Paragraph';
-import Header from '../atoms/Header';
 import Link from '../atoms/Link';
 import styled from 'styled-components';
 
+const Icon = styled.i`
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+`;
 function ProjectItem() {
   return portfolioData.map(
     ({ title, data, description, codeLink, liveVersionLink, photoLink }) => (
@@ -15,10 +18,10 @@ function ProjectItem() {
             alt="Photo of a dimly lit room with a computer interface terminal."
           />
           <Link url={codeLink}>
-            <i className="fab fa-github"></i>
+            <Icon className="fab fa-github"></Icon>
           </Link>
           <Link url={liveVersionLink}>
-            <i className="far fa-window-maximize"></i>
+            <Icon className="far fa-window-maximize"></Icon>
           </Link>
         </div>
         <div>
@@ -26,11 +29,11 @@ function ProjectItem() {
           <p>{`Created in ${data}`}</p>
           <p>{description}</p>
           <Link url={codeLink}>
-            <i class="fab fa-github"></i>
+            <Icon className="fab fa-github"></Icon>
             Code
           </Link>
           <Link url={liveVersionLink}>
-            <i className="far fa-window-maximize"></i>
+            <Icon className="far fa-window-maximize"></Icon>
             Live version
           </Link>
         </div>
