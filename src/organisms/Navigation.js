@@ -3,7 +3,6 @@ import Navigation from '../atoms/styled/Navigation/Navigation';
 import Link from '../atoms/basicTypography/Link';
 import List from '../atoms/styled/Navigation/List';
 import ListItem from '../atoms/styled/Navigation/ListItem';
-import styled from 'styled-components';
 
 //DATA
 const menuSections = [
