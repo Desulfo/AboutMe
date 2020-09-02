@@ -1,22 +1,9 @@
 import React from 'react';
 import Section from '../atoms/Section';
+import List from '../atoms/styled/Experience/List';
+import ListItem from '../atoms/styled/Experience/ListItem';
 import Paragraph from '../atoms/basicTypography/Paragraph';
 import Header from '../atoms/basicTypography/Header';
-import styled from 'styled-components';
-
-const List = styled.ul`
-  display: flex;
-  margin: 0 auto;
-  padding: 0 2rem;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: space-between;
-  max-width: 850px;
-`;
-const ListItem = styled.li`
-  padding-left: 1rem;
-  text-align: left;
-`;
 
 function Experience() {
   return (
