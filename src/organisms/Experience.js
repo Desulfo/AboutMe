@@ -1,13 +1,9 @@
 import React from 'react';
-import Paragraph from '../atoms/Paragraph';
-import Header from '../atoms/Header';
+import Section from '../atoms/Section';
+import Paragraph from '../atoms/basicTypography/Paragraph';
+import Header from '../atoms/basicTypography/Header';
 import styled from 'styled-components';
 
-const Section = styled.section`
-  background-color: #96ccff;
-  padding: 1.5rem 3rem;
-  text-align: center;
-`;
 const List = styled.ul`
   display: flex;
   margin: 0 auto;
@@ -20,15 +16,11 @@ const List = styled.ul`
 const ListItem = styled.li`
   padding-left: 1rem;
   text-align: left;
-  @media (min-width: 600px) {
-  }
-  @media (min-width: 1000px) {
-  }
 `;
 
 function Experience() {
   return (
-    <Section id="Experience">
+    <Section id="Experience" background="#96ccff">
       <Header text="IT experience" />
       <List>
         <ListItem>

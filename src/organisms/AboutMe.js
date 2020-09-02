@@ -1,20 +1,14 @@
 import React from 'react';
-import Paragraph from '../atoms/Paragraph';
-import Header from '../atoms/Header';
-import Header4 from '../atoms/Header4';
+import Section from '../atoms/Section';
+import Paragraph from '../atoms/basicTypography/Paragraph';
+import Header from '../atoms/basicTypography/Header';
+import Header4 from '../atoms/basicTypography/Header4';
 import Icon from '../atoms/FavIcon';
-import Link from '../atoms/Link';
-import styled from 'styled-components';
-
-const Section = styled.section`
-  background-color: #96ccff;
-  padding: 1.5rem 1rem;
-  text-align: center;
-`;
+import Link from '../atoms/basicTypography/Link';
 
 function AboutMe() {
   return (
-    <Section id="AboutMe">
+    <Section id="AboutMe" background="#96ccff">
       <Header text="Paweł Janiszewski" BottomMargin="0" />
       <Header4>Junior Front-end developer</Header4>
       <Paragraph

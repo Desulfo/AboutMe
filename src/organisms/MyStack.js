@@ -1,15 +1,12 @@
 import React from 'react';
 import stackData from '../data/Stack.js';
-import Header from '../atoms/Header';
-import Header3 from '../atoms/Header3';
-import Paragraph from '../atoms/Paragraph';
+import Section from '../atoms/Section';
+import Header from '../atoms/basicTypography/Header';
+import Header3 from '../atoms/basicTypography/Header3';
+import Paragraph from '../atoms/basicTypography/Paragraph';
 import Icon from '../atoms/FavIcon';
 import styled from 'styled-components';
 
-const Section = styled.section`
-  padding: 1.5rem 1rem;
-  text-align: center;
-`;
 const List = styled.ul`
   display: flex;
   margin: 0 auto;

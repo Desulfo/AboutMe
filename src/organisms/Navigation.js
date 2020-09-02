@@ -1,6 +1,8 @@
 import React from 'react';
-import Link from '../atoms/Link';
-import Paragraph from '../atoms/Paragraph';
+import Navigation from '../atoms/styled/Navigation/Navigation';
+import Link from '../atoms/basicTypography/Link';
+import List from '../atoms/styled/Navigation/List';
+import ListItem from '../atoms/styled/Navigation/ListItem';
 import styled from 'styled-components';
 
 //DATA
@@ -12,38 +14,13 @@ const menuSections = [
 ];
 
 //STYLED COMPONENTS
-const Navigation = styled.nav`
-  padding: 1rem;
-  text-align: center;
-  @media (min-width: 450px) {
-    position: sticky;
-    top: 0;
-    background-color: white;
-    width: 100%;
-  }
-`;
-const List = styled.ul`
-  margin: 0 auto;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 550px;
-  @media (min-width: 450px) {
-    flex-direction: row;
-  }
-`;
-const ListItem = styled.li`
-  margin: 0.7rem;
-`;
 
 function StyledNavigation() {
   return (
     <Navigation>
       <List>
-        {menuSections.map(({ name, tag }) => (
-          <ListItem>
+        {menuSections.map(({ name, tag }, index) => (
+          <ListItem key={index}>
             <Link url={`#${tag}`}>{name}</Link>
           </ListItem>
         ))}

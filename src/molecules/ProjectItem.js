@@ -1,8 +1,8 @@
 import React from 'react';
 import portfolioData from '../data/portfolio.js';
-import Header3 from '../atoms/Header3';
+import Header3 from '../atoms/basicTypography/Header3';
 import Icon from '../atoms/FavIcon';
-import Link from '../atoms/Link';
+import Link from '../atoms/basicTypography/Link';
 
 function ProjectItem() {
   return portfolioData.map(

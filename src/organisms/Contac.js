@@ -1,14 +1,10 @@
 import React from 'react';
-import Header from '../atoms/Header';
-import Link from '../atoms/Link';
+import Header from '../atoms/basicTypography/Header';
+import Link from '../atoms/basicTypography/Link';
 import Icon from '../atoms/FavIcon';
+import Section from '../atoms/Section';
 import styled from 'styled-components';
 
-const Section = styled.section`
-  background-color: #96ccff;
-  padding: 1.5rem 1rem;
-  text-align: center;
-`;
 const ContactLink = styled(Link)`
   display: inline-block;
   width: 100%;
@@ -64,7 +60,7 @@ const Button = styled.button`
 
 function Contact() {
   return (
-    <Section id="Contact">
+    <Section id="Contact" background="#96ccff">
       <Header text="Reach me:" />
       <ContactLink url="mailto: pawel.janiszews@interia.pl">
         <Icon className="far fa-envelope" />

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../atoms/Header';
+import Header from '../atoms/basicTypography/Header';
 import ProjectItem from '../molecules/ProjectItem';
 import styled from 'styled-components';
 
