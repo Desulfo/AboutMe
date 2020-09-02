@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../atoms/Header';
 import Link from '../atoms/Link';
+import Icon from '../atoms/FavIcon';
 import styled from 'styled-components';
 
 const Section = styled.section`
@@ -15,10 +16,6 @@ const ContactLink = styled(Link)`
   @media (min-width: 600px) {
     width: 50%;
   }
-`;
-const Icon = styled.i`
-  font-size: 1.5rem;
-  margin-right: 0.8rem;
 `;
 const Form = styled.form`
   display: flex;

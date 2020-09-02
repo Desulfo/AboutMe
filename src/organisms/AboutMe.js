@@ -1,6 +1,8 @@
 import React from 'react';
 import Paragraph from '../atoms/Paragraph';
 import Header from '../atoms/Header';
+import Header4 from '../atoms/Header4';
+import Icon from '../atoms/FavIcon';
 import Link from '../atoms/Link';
 import styled from 'styled-components';
 
@@ -8,11 +10,6 @@ const Section = styled.section`
   background-color: #96ccff;
   padding: 1.5rem 1rem;
   text-align: center;
-`;
-const Header4 = styled.h4`
-  font-weight: normal;
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
 `;
 
 function AboutMe() {
@@ -29,7 +26,7 @@ function AboutMe() {
       <Link url="#Stack">
         My stack
         <br />
-        <i class="fas fa-arrow-circle-down f3 mt2"></i>
+        <Icon className="fas fa-arrow-circle-down" styles="margin: .5rem 0;" />
       </Link>
     </Section>
   );

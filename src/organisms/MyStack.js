@@ -1,7 +1,9 @@
 import React from 'react';
 import stackData from '../data/Stack.js';
 import Header from '../atoms/Header';
+import Header3 from '../atoms/Header3';
 import Paragraph from '../atoms/Paragraph';
+import Icon from '../atoms/FavIcon';
 import styled from 'styled-components';
 
 const Section = styled.section`
@@ -34,15 +36,6 @@ const ListItem = styled.li`
     width: 30%;
   }
 `;
-const Icon = styled.i`
-  width: 70px;
-  float: left;
-  font-size: 4rem;
-  margin-right: 1rem;
-`;
-const Header3 = styled.h3`
-  font-size: 1.3rem;
-`;
 
 function MyStack() {
   return (
@@ -51,7 +44,14 @@ function MyStack() {
       <List>
         {stackData.map(({ technology, description, favIconClass: icon }) => (
           <ListItem>
-            <Icon className={`fab ${icon}`}></Icon>
+            <Icon
+              className={`fab ${icon}`}
+              styles="
+                width: 70px;
+                float: left;
+                font-size: 4rem;
+                margin-right: 1rem;"
+            />
             <Header3>{technology}</Header3>
             <Paragraph text={description} styles="margin: 0;" />
           </ListItem>
