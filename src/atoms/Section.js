@@ -10,7 +10,11 @@ const StyledSection = styled.section`
 
 function Section(props) {
   return (
-    <StyledSection className={props.className} background={props.background}>
+    <StyledSection
+      className={props.className}
+      background={props.background}
+      id={props.id}
+    >
       {props.children}
     </StyledSection>
   );

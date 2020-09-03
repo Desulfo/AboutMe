@@ -19,9 +19,6 @@ const InputContainer = styled.div`
 `;
 const TextAreaContainer = styled(InputContainer)`
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 `;
 
 function Contact() {
@@ -41,6 +38,7 @@ function Contact() {
       <Form>
         <InputContainer>
           <Label htmlFor="mail">Your mail:</Label>
+          <br />
           <Input
             id="name"
             type="email"
@@ -50,6 +48,7 @@ function Contact() {
         </InputContainer>
         <InputContainer>
           <Label htmlFor="mail">Your name:</Label>
+          <br />
           <Input
             id="name"
             type="text"
@@ -59,6 +58,7 @@ function Contact() {
         </InputContainer>
         <TextAreaContainer>
           <Label htmlFor="mail">Your message:</Label>
+          <br />
           <TextArea
             id="name"
             type="email"
