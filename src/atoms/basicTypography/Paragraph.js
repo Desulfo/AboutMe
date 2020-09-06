@@ -10,7 +10,9 @@ const StyledParagraph = styled.p`
 `;
 
 function Paragraph(props) {
-  return <StyledParagraph styles={props.styles}>{props.text}</StyledParagraph>;
+  return (
+    <StyledParagraph styles={props.styles}>{props.children}</StyledParagraph>
+  );
 }
 
 export default Paragraph;

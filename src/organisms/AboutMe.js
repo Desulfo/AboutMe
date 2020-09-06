@@ -11,12 +11,11 @@ function AboutMe() {
     <Section id="AboutMe" background="#96ccff">
       <Header text="Paweł Janiszewski" BottomMargin="0" />
       <Header4>Junior Front-end developer</Header4>
-      <Paragraph
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+      <Paragraph styles="max-width: 800px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
         voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut sed,
         inventore iusto magni eaque magnam deserunt nisi harum quas eos itaque!"
-        styles="max-width: 800px;"
-      />
+      </Paragraph>
       <Link url="#Stack">
         My stack
         <br />

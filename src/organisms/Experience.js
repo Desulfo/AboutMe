@@ -11,12 +11,12 @@ function Experience() {
       <Header text="IT experience" />
       <List>
         <ListItem>
-          <Paragraph
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-        voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut sed,
-        inventore iusto magni eaque magnam deserunt nisi harum quas eos itaque!"
-            styles="max-width: 800px;"
-          />
+          <Paragraph styles="max-width: 800px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut
+            sed, inventore iusto magni eaque magnam deserunt nisi harum quas eos
+            itaque!"
+          </Paragraph>
         </ListItem>
       </List>
     </Section>

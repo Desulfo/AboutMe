@@ -25,7 +25,7 @@ function MyStack() {
                 margin-right: 1rem;"
               />
               <Header3>{technology}</Header3>
-              <Paragraph text={description} styles="margin: 0;" />
+              <Paragraph styles="margin: 0;">{description}</Paragraph>
             </ListItem>
           )
         )}

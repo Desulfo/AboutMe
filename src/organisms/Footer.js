@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
 function Footer() {
   return (
     <StyledFooter id="AboutMe">
-      <Paragraph text="Created by Paweł Janiszewski © Copyright 2020" />
+      <Paragraph>Created by Paweł Janiszewski © Copyright 2020" </Paragraph>
     </StyledFooter>
   );
 }
