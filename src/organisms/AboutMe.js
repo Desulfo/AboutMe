@@ -19,7 +19,15 @@ const AnimatedIcon = styled(Icon)`
     animation: ${rotate} 1s linear;
   }
 `;
-const AnimatedLink = styled(Link)``;
+const AnimatedLink = styled(Link)`
+  &:hover {
+    &: ${AnimatedIcon} {
+      font-size: 2rem;
+      margin-bottom: 0;
+      animation: ${rotate} 1s linear;
+    }
+  }
+`;
 
 function AboutMe() {
   return (
