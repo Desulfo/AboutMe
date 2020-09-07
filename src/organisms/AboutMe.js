@@ -9,12 +9,14 @@ import Icon from '../atoms/FavIcon';
 import Link from '../atoms/basicTypography/Link';
 
 const rotate = keyframes`
-  50% {transform: rotate(-180deg); font-size: 2rem; margin-bottom:0}
-  100% {transform: rotate(0deg); font-size: 1.5rem}
+  0% {font-size:1.5rem;}
+  100% {transform: rotate(-360deg); font-size: 2rem;}
 `;
 const AnimatedIcon = styled(Icon)`
   &:hover {
-    animation: ${rotate} 2s linear;
+    font-size: 2rem;
+    margin-bottom: 0;
+    animation: ${rotate} 1s linear;
   }
 `;
 const AnimatedLink = styled(Link)``;
