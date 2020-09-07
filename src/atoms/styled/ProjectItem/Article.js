@@ -5,7 +5,7 @@ const Article = styled.article`
   margin: 0 auto;
   display: inline-flex;
   flex-wrap: wrap;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.75);
   @media (min-width: 760px) {
     flex-wrap: nowrap;
     text-align: left;
