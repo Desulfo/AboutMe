@@ -1,7 +1,7 @@
 # About Me
 
 My "about me" portfolio site.<br/>
-Live version: [AboutMe](https://desulfo.github.io/RoboFriends/)
+Live version: [AboutMe](https://Desulfo/github.io/AboutMe)
 
 ## General information
 
@@ -10,7 +10,7 @@ Simple site in React telling about me as Junior Front-end Dev
 ## Technologies
 
 - HTML
-- CSS + [tachynos](http://tachyons.io/) + [styled-component](https://styled-components.com/)
+- CSS + [styled-component](https://styled-components.com/)
 - React
 
 ## Setup
