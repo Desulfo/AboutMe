@@ -1,7 +1,7 @@
 # About Me
 
 My "about me" portfolio site.<br/>
-Live version: [AboutMe](https://Desulfo/github.io/AboutMe)
+Live version: [AboutMe](https://desulfo.github.io/AboutMe/)
 
 ## General information
 

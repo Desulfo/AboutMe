@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "homepage": "https://Desulfo/github.io/AboutMe",
+  "homepage": "https://desulfo.github.io/AboutMe/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
