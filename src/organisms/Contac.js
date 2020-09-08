@@ -35,7 +35,7 @@ function Contact() {
           793 253 825
         </ContactLink>
       </ContactSection>
-      <Form action="POST" data-netlify="true">
+      <Form action="https://formspree.io/xnqgebqv" method="POST">
         <InputContainer>
           <Label htmlFor="email">Your mail:</Label>
           <br />
@@ -69,7 +69,6 @@ function Contact() {
             placeholder="Hi, I want to hire you!"
           />
         </TextAreaContainer>
-        <div data-netlify-recaptcha="true"></div>
         <Button type="submit">Send</Button>
       </Form>
     </Section>
