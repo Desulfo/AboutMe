@@ -1,7 +1,5 @@
 import React from 'react';
-//STYLES
-import 'tachyons';
-//COMPONENTS
+
 import Navigation from './organisms/Navigation';
 import AboutMe from './organisms/AboutMe';
 import MyStack from './organisms/MyStack';

@@ -1,5 +1,5 @@
 import React from 'react';
-import stackData from '../data/Stack.js';
+
 import List from '../atoms/styled/MyStack/List';
 import ListItem from '../atoms/styled/MyStack/ListItem';
 import Section from '../atoms/Section';
@@ -7,6 +7,7 @@ import Header from '../atoms/basicTypography/Header';
 import Header3 from '../atoms/basicTypography/Header3';
 import Paragraph from '../atoms/basicTypography/Paragraph';
 import Icon from '../atoms/FavIcon';
+import stackData from '../data/Stack.js';
 
 function MyStack() {
   return (

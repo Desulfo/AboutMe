@@ -12,16 +12,9 @@ const rotate = keyframes`
   0% {font-size:1.5rem;}
   100% {transform: rotate(-360deg); font-size: 2rem;}
 `;
-const AnimatedIcon = styled(Icon)`
-  &:hover {
-    font-size: 2rem;
-    margin-bottom: 0;
-    animation: ${rotate} 1s linear;
-  }
-`;
 const AnimatedLink = styled(Link)`
   &:hover {
-    &: ${AnimatedIcon} {
+    .fas {
       font-size: 2rem;
       margin-bottom: 0;
       animation: ${rotate} 1s linear;
@@ -42,10 +35,7 @@ function AboutMe() {
       <AnimatedLink url="#Stack">
         My stack
         <br />
-        <AnimatedIcon
-          className="fas fa-arrow-circle-down"
-          styles="margin: .5rem 0;"
-        />
+        <Icon className="fas fa-arrow-circle-down" styles="margin: .5rem 0;" />
       </AnimatedLink>
     </Section>
   );
