@@ -35,37 +35,41 @@ function Contact() {
           793 253 825
         </ContactLink>
       </ContactSection>
-      <Form>
+      <Form action="POST" data-netlify="true">
         <InputContainer>
-          <Label htmlFor="mail">Your mail:</Label>
+          <Label htmlFor="email">Your mail:</Label>
           <br />
           <Input
-            id="name"
+            id="email"
+            name="email"
             type="email"
             aria-describedby="Place for your email"
             placeholder="James.bond@wp.pl"
           />
         </InputContainer>
         <InputContainer>
-          <Label htmlFor="mail">Your name:</Label>
+          <Label htmlFor="name">Your name:</Label>
           <br />
           <Input
             id="name"
+            name="name"
             type="text"
             aria-describedby="Place for your name"
             placeholder="James Bond"
           />
         </InputContainer>
         <TextAreaContainer>
-          <Label htmlFor="mail">Your message:</Label>
+          <Label htmlFor="message">Your message:</Label>
           <br />
           <TextArea
-            id="name"
-            type="email"
+            id="message"
+            name="message"
+            type="text"
             aria-describedby="Place for your message"
             placeholder="Hi, I want to hire you!"
           />
         </TextAreaContainer>
+        <div data-netlify-recaptcha="true"></div>
         <Button type="submit">Send</Button>
       </Form>
     </Section>
