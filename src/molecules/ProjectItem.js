@@ -1,17 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
+
 import portfolioData from '../data/portfolio.js';
 import Header3 from '../atoms/basicTypography/Header3';
-import Icon from '../atoms/FavIcon';
-import Link from '../atoms/basicTypography/Link';
-import Article from '../atoms/styled/ProjectItem/Article';
-import Image from '../atoms/styled/ProjectItem/ProjectImage';
 import Paragraph from '../atoms/basicTypography/Paragraph';
-import Section from '../atoms/styled/ProjectItem/Section';
-
-const StyledLink = styled(Link)`
-  margin-right: 2rem;
-`;
+import Link from '../atoms/basicTypography/Link';
+import Icon from '../atoms/FavIcon';
+import { Article, Section, Image, StyledLink } from './StyledProjectItem';
 
 function ProjectItem() {
   return portfolioData.map(

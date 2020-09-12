@@ -1,7 +1,7 @@
 import React from 'react';
+
+import { List, ListItem } from './StyledExperience';
 import Section from '../atoms/Section';
-import List from '../atoms/styled/Experience/List';
-import ListItem from '../atoms/styled/Experience/ListItem';
 import Paragraph from '../atoms/basicTypography/Paragraph';
 import Header from '../atoms/basicTypography/Header';
 

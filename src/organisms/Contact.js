@@ -1,25 +1,18 @@
 import React from 'react';
-import Form from '../atoms/styled/Contact/Form';
-import Label from '../atoms/styled/Contact/Label';
-import Input from '../atoms/styled/Contact/Input';
-import TextArea from '../atoms/styled/Contact/TextArea';
-import Button from '../atoms/styled/Contact/Button';
-import ContactSection from '../atoms/styled/Contact/ContactSection';
+
+import {
+  ContactSection,
+  Button,
+  Form,
+  Input,
+  TextArea,
+  InputContainer,
+  TextAreaContainer,
+  ContactLink,
+} from './StyledContact';
 import Header from '../atoms/basicTypography/Header';
-import Link from '../atoms/basicTypography/Link';
 import Icon from '../atoms/FavIcon';
 import Section from '../atoms/Section';
-import styled from 'styled-components';
-
-const ContactLink = styled(Link)`
-  margin: 0.5rem;
-`;
-const InputContainer = styled.div`
-  margin: 0.5rem;
-`;
-const TextAreaContainer = styled(InputContainer)`
-  width: 100%;
-`;
 
 function Contact() {
   return (
@@ -37,7 +30,7 @@ function Contact() {
       </ContactSection>
       <Form action="https://formspree.io/xnqgebqv" method="POST">
         <InputContainer>
-          <Label htmlFor="email">Your mail:</Label>
+          <label htmlFor="email">Your mail:</label>
           <br />
           <Input
             id="email"
@@ -48,7 +41,7 @@ function Contact() {
           />
         </InputContainer>
         <InputContainer>
-          <Label htmlFor="name">Your name:</Label>
+          <label htmlFor="name">Your name:</label>
           <br />
           <Input
             id="name"
@@ -59,7 +52,7 @@ function Contact() {
           />
         </InputContainer>
         <TextAreaContainer>
-          <Label htmlFor="message">Your message:</Label>
+          <label htmlFor="message">Your message:</label>
           <br />
           <TextArea
             id="message"

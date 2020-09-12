@@ -1,7 +1,6 @@
 import React from 'react';
 
-import List from '../atoms/styled/MyStack/List';
-import ListItem from '../atoms/styled/MyStack/ListItem';
+import { List, ListItem } from './StyledMyStack';
 import Section from '../atoms/Section';
 import Header from '../atoms/basicTypography/Header';
 import Header3 from '../atoms/basicTypography/Header3';

@@ -1,5 +1,14 @@
 import styled from 'styled-components';
+import UnorderedList from '../atoms/StyledUnorderedList';
 
+const List = styled(UnorderedList)`
+  align-items: center;
+  max-width: 850px;
+  @media (min-width: 600px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+`;
 const ListItem = styled.li`
   width: 80%;
   margin: 1.2rem auto;
@@ -13,4 +22,4 @@ const ListItem = styled.li`
   }
 `;
 
-export default ListItem;
+export { List, ListItem };

@@ -5,7 +5,7 @@ Live version: [AboutMe](https://desulfo.github.io/AboutMe/)
 
 ## General information
 
-Simple site in React telling about me as Junior Front-end Dev
+Simple site in React telling describing me as Junior Front-end Dev
 
 ## Technologies
 
