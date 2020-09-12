@@ -32,8 +32,6 @@ _In Progress_
 
 ## Future
 
-- use React more efficiently
-- style it properly
 - add tests
 - correct txt
 - add more projects :)
