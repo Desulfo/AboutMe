@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import UnorderedList from '../atoms/StyledUnorderedList';
+import StyledIcon from '../atoms/FavIcon';
+import StyledParagraph from '../atoms/basicTypography/Paragraph';
 
 const List = styled(UnorderedList)`
-  align-items: center;
   max-width: 850px;
   @media (min-width: 600px) {
     flex-direction: row;
@@ -21,5 +22,16 @@ const ListItem = styled.li`
     width: 30%;
   }
 `;
-
-export { List, ListItem };
+const Icon = styled(StyledIcon)`
+  width: 70px;
+  height: 70px;
+  float: left;
+  font-size: 4rem;
+  margin-right: 1rem;
+`;
+const Paragraph = styled(StyledParagraph)`
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3rem;
+`;
+export { List, ListItem, Icon, Paragraph };

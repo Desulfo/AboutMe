@@ -1,11 +1,9 @@
 import React from 'react';
 
-import { List, ListItem } from './StyledMyStack';
+import { List, ListItem, Icon, Paragraph } from './StyledMyStack';
 import Section from '../atoms/Section';
 import Header from '../atoms/basicTypography/Header';
 import Header3 from '../atoms/basicTypography/Header3';
-import Paragraph from '../atoms/basicTypography/Paragraph';
-import Icon from '../atoms/FavIcon';
 import stackData from '../data/Stack.js';
 
 function MyStack() {
@@ -16,16 +14,9 @@ function MyStack() {
         {stackData.map(
           ({ technology, description, favIconClass: icon }, index) => (
             <ListItem key={index}>
-              <Icon
-                className={`fab ${icon}`}
-                styles="
-                width: 70px;
-                float: left;
-                font-size: 4rem;
-                margin-right: 1rem;"
-              />
+              <Icon className={`fab ${icon}`} />
               <Header3>{technology}</Header3>
-              <Paragraph styles="margin: 0;">{description}</Paragraph>
+              <Paragraph>{description}</Paragraph>
             </ListItem>
           )
         )}

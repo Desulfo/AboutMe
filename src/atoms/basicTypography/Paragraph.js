@@ -6,12 +6,13 @@ const StyledParagraph = styled.p`
   font-size: 1rem;
   margin-bottom: 1rem;
   line-height: 1.3rem;
-  ${(props) => props.styles}
 `;
 
 function Paragraph(props) {
   return (
-    <StyledParagraph styles={props.styles}>{props.children}</StyledParagraph>
+    <StyledParagraph className={props.className}>
+      {props.children}
+    </StyledParagraph>
   );
 }
 

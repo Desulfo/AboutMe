@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { List, ListItem } from './StyledExperience';
+import { List, ListItem, Paragraph } from './StyledExperience';
 import Section from '../atoms/Section';
-import Paragraph from '../atoms/basicTypography/Paragraph';
 import Header from '../atoms/basicTypography/Header';
 
 function Experience() {
@@ -11,7 +10,7 @@ function Experience() {
       <Header text="IT experience" />
       <List>
         <ListItem>
-          <Paragraph styles="max-width: 800px;">
+          <Paragraph>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
             voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut
             sed, inventore iusto magni eaque magnam deserunt nisi harum quas eos
