@@ -1,7 +1,6 @@
 import React from 'react';
-import { AnimatedLink, Paragraph, Icon } from './StyledAboutMe';
+import { AnimatedLink, Paragraph, Icon, Header } from './StyledAboutMe';
 import Section from '../atoms/Section';
-import Header from '../atoms/basicTypography/Header';
 import Header4 from '../atoms/basicTypography/Header4';
 
 function AboutMe() {
