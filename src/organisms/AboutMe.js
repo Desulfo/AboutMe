@@ -6,12 +6,12 @@ import Header4 from '../atoms/basicTypography/Header4';
 function AboutMe() {
   return (
     <Section id="AboutMe" background="#96ccff">
-      <Header text="Paweł Janiszewski" BottomMargin="0" />
+      <Header text="Paweł Janiszewski" />
       <Header4>Junior Front-end developer</Header4>
       <Paragraph>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-        voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut sed,
-        inventore iusto magni eaque magnam deserunt nisi harum quas eos itaque!"
+        Jestem początkującym Front-end developerem. Jestem cierpliwy i wytrwały
+        :)
+        <br /> Prywatnie oddaję się sportowi, książkom fantasy i grom.
       </Paragraph>
       <AnimatedLink url="#Stack">
         My stack

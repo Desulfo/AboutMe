@@ -32,8 +32,7 @@ _In Progress_
 
 ## Future
 
-- add tests
-- correct txt
+- add better descriptions
 - add more projects :)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

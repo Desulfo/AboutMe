@@ -3,6 +3,7 @@ import React from 'react';
 import { List, ListItem, Paragraph } from './StyledExperience';
 import Section from '../atoms/Section';
 import Header from '../atoms/basicTypography/Header';
+import Header5 from '../atoms/basicTypography/Header5';
 
 function Experience() {
   return (
@@ -10,11 +11,15 @@ function Experience() {
       <Header text="IT experience" />
       <List>
         <ListItem>
+          <Header5>Now- online's courses</Header5>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-            voluptatibus. Expedita sit alias nobis perspiciatis quam sint aut
-            sed, inventore iusto magni eaque magnam deserunt nisi harum quas eos
-            itaque!"
+            A online's courrses and cooperation with a mentor from JSView.
+          </Paragraph>
+        </ListItem>
+        <ListItem>
+          <Header5>2018- bootcamp kodilla</Header5>
+          <Paragraph>
+            Done the Bootcamp from Kodilla called "Bootcamp Web Developer".
           </Paragraph>
         </ListItem>
       </List>
