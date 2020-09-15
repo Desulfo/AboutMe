@@ -9,9 +9,9 @@ function AboutMe() {
       <Header text="Paweł Janiszewski" />
       <Header4>Junior Front-end developer</Header4>
       <Paragraph>
-        Jestem początkującym Front-end developerem. Jestem cierpliwy i wytrwały
-        :)
-        <br /> Prywatnie oddaję się sportowi, książkom fantasy i grom.
+        I am a novice Front-end developer with a passion for new technologies.
+        cechy charakteru :)
+        <br /> In free time HOBBY
       </Paragraph>
       <AnimatedLink url="#Stack">
         My stack
