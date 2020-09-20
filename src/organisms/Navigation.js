@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+import Burger from '../molecules/BurgerMenu';
 import { List, ListItem, Navigation } from './StyledNavigation';
 import Link from '../atoms/basicTypography/Link';
 
@@ -11,11 +12,13 @@ const menuSections = [
 ];
 
 function StyledNavigation() {
+  const [open, setOpen] = useState(false);
   return (
     <Navigation>
       <List>
+        <Burger open={open} setOpen={setOpen} />
         {menuSections.map(({ name, tag }, index) => (
-          <ListItem key={index}>
+          <ListItem open={open} setOpen={setOpen} key={index}>
             <Link url={`#${tag}`}>{name}</Link>
           </ListItem>
         ))}

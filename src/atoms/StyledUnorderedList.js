@@ -6,7 +6,6 @@ const List = styled.ul`
   display: flex;
   list-style: none;
   flex-direction: column;
-  justify-content: center;
   justify-content: space-between;
 `;
 

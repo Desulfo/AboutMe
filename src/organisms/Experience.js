@@ -13,8 +13,14 @@ function Experience() {
         <ListItem>
           <Header5>2018-Now </Header5>
           <Paragraph>
-            codewars, własne projekty, udemy, mentor.A online's courrses and
-            cooperation with a mentor from JSView.
+            From 2018 till now I was self-learning. I have read few{' '}
+            <strong>books</strong> mainly focusing on JS. I have done a{' '}
+            <strong>Udemy's courses</strong>. Currently working on a{' '}
+            <strong>codewars</strong> and creating my{' '}
+            <strong>own projects</strong> under the supervision of{' '}
+            <strong>mentor</strong> form{' '}
+            <a href="https://www.facebook.com/JSView-102360824717615">JSView</a>
+            .
           </Paragraph>
         </ListItem>
         <ListItem>
@@ -24,8 +30,12 @@ function Experience() {
             bootcamp kodilla
           </Header5>
           <Paragraph>
-            Accomplite the Bootcamp from Kodilla called "Bootcamp Web
-            Developer". co obejmował, miałem mentora.
+            I finish the Bootcamp from Kodilla called{' '}
+            <strong>Bootcamp Web Developer</strong> where I learned basic of{' '}
+            <strong>HTML, CSS, JS(ES6), Node and React</strong>. During the
+            course I had weekly videocall with <strong>a mentor </strong>where
+            we discuss problems and if I was ahead of material I received extra
+            task to practice.
           </Paragraph>
         </ListItem>
       </List>

@@ -9,11 +9,19 @@ import { Article, Section, Image, StyledLink } from './StyledProjectItem';
 
 function ProjectItem() {
   return portfolioData.map(
-    ({ title, data, description, codeLink, liveVersionLink, photoLink }) => (
+    ({
+      title,
+      data,
+      description,
+      codeLink,
+      liveVersionLink,
+      photoLink,
+      photoDescription,
+    }) => (
       <Article>
         <Image
-          src={photoLink}
-          alt="Photo of a dimly lit room with a computer interface terminal."
+          src={photoLink || 'https://via.placeholder.com/250'}
+          alt={photoDescription}
         />
         <Section>
           <Header3>{title}</Header3>
