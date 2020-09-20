@@ -7,14 +7,16 @@ import StyledIcon from '../atoms/FavIcon';
 
 const rotate = keyframes`
   0% {font-size:1.5rem;}
-  100% {transform: rotate(-360deg); font-size: 2rem;}
+  40% {transform: rotate(-90deg)}
+  60% {transform: rotate(-90deg)}
+  100% {transform: rotate(0deg); font-size: 2rem;}
 `;
 const AnimatedLink = styled(Link)`
   &:hover {
     .fas {
       font-size: 2rem;
       margin-bottom: 0;
-      animation: ${rotate} 1s linear;
+      animation: ${rotate} 0.5s linear;
     }
   }
 `;
