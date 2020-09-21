@@ -5,7 +5,7 @@ Live version: [AboutMe](https://desulfo.github.io/AboutMe/)
 
 ## General information
 
-Simple site in React telling describing me as Junior Front-end Dev
+Simple portfolio site in React.
 
 ## Technologies
 
@@ -32,7 +32,7 @@ _In Progress_
 
 ## Future
 
-- add better descriptions
+- add linkedin and messenger link
 - add more projects :)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
