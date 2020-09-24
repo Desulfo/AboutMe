@@ -9,8 +9,8 @@ function AboutMe() {
       <Header text="Paweł Janiszewski" />
       <Header4>Junior Front-end developer</Header4>
       <Paragraph>
-        I'm a novice Front-end developer with an enthusiasm for learning. I like
-        to solve problems and learn new technologies.
+        I'm a novice Front-end developer with an enthusiasm for learning. <br />
+        I like to solve problems and learn new technologies.
       </Paragraph>
       <AnimatedLink url="#Stack">
         My stack

@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 import Link from '../atoms/basicTypography/Link';
+import Icon from '../atoms/FavIcon';
 
 const ContactSection = styled.section`
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 400px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
 
 const Button = styled.button`
@@ -79,7 +80,10 @@ const TextAreaContainer = styled(InputContainer)`
   width: 100%;
 `;
 const ContactLink = styled(Link)`
-  margin: 0.5rem;
+  margin: 1rem;
+`;
+const BigIcon = styled(Icon)`
+  font-size: 2rem;
 `;
 
 export {
@@ -91,4 +95,5 @@ export {
   InputContainer,
   TextAreaContainer,
   ContactLink,
+  BigIcon,
 };

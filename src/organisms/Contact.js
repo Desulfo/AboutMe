@@ -9,6 +9,7 @@ import {
   InputContainer,
   TextAreaContainer,
   ContactLink,
+  BigIcon,
 } from './StyledContact';
 import Header from '../atoms/basicTypography/Header';
 import Icon from '../atoms/FavIcon';
@@ -23,9 +24,15 @@ function Contact() {
           <Icon className="far fa-envelope" />
           pawel.janiszews@interia.pl
         </ContactLink>
+        <ContactLink url="https://www.linkedin.com/in/pawe%C5%82-janiszewski/">
+          <BigIcon className="fab fa-linkedin" />
+        </ContactLink>
         <ContactLink url="tel: +48793253825">
           <Icon className="fas fa-phone" />
           793 253 825
+        </ContactLink>
+        <ContactLink url="https://github.com/desulfo">
+          <BigIcon className="fab fa-github-square" />
         </ContactLink>
       </ContactSection>
       <Form action="https://formspree.io/xnqgebqv" method="POST">
