@@ -6,7 +6,7 @@ export default [
     description: `This is a repo of this site. It is created with React and StyledComponents. Hopefully you like it.`,
     codeLink: 'https://github.com/Desulfo/AboutMe',
     liveVersionLink: 'https://desulfo.github.io/AboutMe/',
-    photoLink: '',
+    photoLink: '../src/pictures/AboutMe',
     photoDescription: `zdjęcie strony`,
   },
   {

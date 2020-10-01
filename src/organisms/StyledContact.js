@@ -5,9 +5,20 @@ import Icon from '../atoms/FavIcon';
 const ContactSection = styled.section`
   margin: 0 auto;
   max-width: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    'a a'
+    'b b'
+    'c d';
+  @media (min-width: 550px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'a a a c'
+      'b b b d';
+  }
 `;
 
 const Button = styled.button`

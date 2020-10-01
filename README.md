@@ -24,15 +24,14 @@ npm init
 npm start
 ```
 
-If site didn't open automaticly in your browser you can acces it here: [http://localhost:3000](http://localhost:3000)
+If site didn't open automatically in your browser you can access it here: [http://localhost:3000](http://localhost:3000)
 
 ## Status
 
-_In Progress_
+_Finished_
 
 ## Future
 
-- add linkedin and messenger link
-- add more projects :)
+- keeping up to date :)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

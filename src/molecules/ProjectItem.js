@@ -18,7 +18,7 @@ function ProjectItem() {
       photoLink,
       photoDescription,
     }) => (
-      <Article>
+      <Article key={title}>
         <Image
           src={photoLink || 'https://via.placeholder.com/250'}
           alt={photoDescription}

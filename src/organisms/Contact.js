@@ -20,18 +20,21 @@ function Contact() {
     <Section id="Contact" background="#96ccff">
       <Header text="Reach me:" />
       <ContactSection>
-        <ContactLink url="mailto: pawel.janiszews@interia.pl">
+        <ContactLink className="a" url="mailto: pawel.janiszews@interia.pl">
           <Icon className="far fa-envelope" />
           pawel.janiszews@interia.pl
         </ContactLink>
-        <ContactLink url="https://www.linkedin.com/in/pawe%C5%82-janiszewski/">
-          <BigIcon className="fab fa-linkedin" />
-        </ContactLink>
-        <ContactLink url="tel: +48793253825">
+        <ContactLink className="b" url="tel: +48793253825">
           <Icon className="fas fa-phone" />
           793 253 825
         </ContactLink>
-        <ContactLink url="https://github.com/desulfo">
+        <ContactLink
+          className="c"
+          url="https://www.linkedin.com/in/pawe%C5%82-janiszewski/"
+        >
+          <BigIcon className="fab fa-linkedin" />
+        </ContactLink>
+        <ContactLink className="d" url="https://github.com/desulfo">
           <BigIcon className="fab fa-github-square" />
         </ContactLink>
       </ContactSection>
