@@ -1,4 +1,5 @@
 import AboutPhoto from '../pictures/AboutMe.png';
+import RoboFriends from '../pictures/RoboFriends.png';
 
 export default [
   {
@@ -18,7 +19,7 @@ export default [
     description: `Site created using React framework. It allows you to find the robot by its name. Robot's name and pictures are downloaded from the external API.`,
     codeLink: 'https://github.com/Desulfo/RoboFriends',
     liveVersionLink: 'https://desulfo.github.io/RoboFriends/',
-    photoLink: 'https://www.patricksmcmahon.com/img/portfolio/robofriends.jpg',
+    photoLink: RoboFriends,
     photoDescription: `zdjęcie strony`,
   },
 ];
