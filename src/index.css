@@ -16,16 +16,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.a {
-  grid-area: a;
-}
-.b {
-  grid-area: b;
-}
-.c {
-  grid-area: c;
-}
-.d {
-  grid-area: d;
-}

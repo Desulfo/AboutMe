@@ -93,6 +93,18 @@ const TextAreaContainer = styled(InputContainer)`
 const ContactLink = styled(Link)`
   margin: 1rem;
 `;
+const ContactLinkA = styled(ContactLink)`
+  grid-area: a;
+`;
+const ContactLinkB = styled(ContactLink)`
+  grid-area: b;
+`;
+const ContactLinkC = styled(ContactLink)`
+  grid-area: c;
+`;
+const ContactLinkD = styled(ContactLink)`
+  grid-area: d;
+`;
 const BigIcon = styled(Icon)`
   font-size: 2rem;
 `;
@@ -105,6 +117,9 @@ export {
   TextArea,
   InputContainer,
   TextAreaContainer,
-  ContactLink,
+  ContactLinkA,
+  ContactLinkB,
+  ContactLinkC,
+  ContactLinkD,
   BigIcon,
 };

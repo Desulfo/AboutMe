@@ -8,7 +8,10 @@ import {
   TextArea,
   InputContainer,
   TextAreaContainer,
-  ContactLink,
+  ContactLinkA,
+  ContactLinkB,
+  ContactLinkC,
+  ContactLinkD,
   BigIcon,
 } from './StyledContact';
 import Header from '../atoms/basicTypography/Header';
@@ -20,23 +23,20 @@ function Contact() {
     <Section id="Contact" background="#96ccff">
       <Header text="Reach me:" />
       <ContactSection>
-        <ContactLink className="a" url="mailto: pawel.janiszews@interia.pl">
+        <ContactLinkA url="mailto: pawel.janiszews@interia.pl">
           <Icon className="far fa-envelope" />
           pawel.janiszews@interia.pl
-        </ContactLink>
-        <ContactLink className="b" url="tel: +48793253825">
+        </ContactLinkA>
+        <ContactLinkB url="tel: +48793253825">
           <Icon className="fas fa-phone" />
           793 253 825
-        </ContactLink>
-        <ContactLink
-          className="c"
-          url="https://www.linkedin.com/in/pawe%C5%82-janiszewski/"
-        >
+        </ContactLinkB>
+        <ContactLinkC url="https://www.linkedin.com/in/pawe%C5%82-janiszewski/">
           <BigIcon className="fab fa-linkedin" />
-        </ContactLink>
-        <ContactLink className="d" url="https://github.com/desulfo">
+        </ContactLinkC>
+        <ContactLinkD url="https://github.com/desulfo">
           <BigIcon className="fab fa-github-square" />
-        </ContactLink>
+        </ContactLinkD>
       </ContactSection>
       <Form action="https://formspree.io/xnqgebqv" method="POST">
         <InputContainer>
