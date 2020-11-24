@@ -3,6 +3,16 @@ import RoboFriends from '../pictures/RoboFriends.png';
 
 export default [
   {
+    title: 'HackerNews',
+    author: 'Paweł Janiszewski',
+    data: 'XI 2020',
+    description: `The site is randomly choosing a 10 news from the top stories. All the news are downloaded from external API. Currently working on a new features like a favorite tab.`,
+    codeLink: 'https://github.com/Desulfo/HackerNews',
+    liveVersionLink: 'https://desulfo.github.io/HackerNews/',
+    photoLink: '',
+    photoDescription: `zdjęcie strony`,
+  },
+  {
     title: 'AboutMe',
     author: 'Paweł Janiszewski',
     data: 'IX 2020',
